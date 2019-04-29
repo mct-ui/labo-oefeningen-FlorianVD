@@ -428,6 +428,10 @@ a:focus {
     text-shadow: 0px 0px 2px #DBEDFF, 0px 5px 10px #aeaeae;
 }
 
+.c-text-block {
+    max-width: 32em;
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
