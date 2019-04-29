@@ -432,6 +432,27 @@ a:focus {
     max-width: 32em;
 }
 
+.c-cta {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding: 16px 25px;
+    background-image: linear-gradient(to right, #033aa7 0%, #0053fb 51%, #033aa7 100%);
+    box-shadow: 0 0 8px rgba(17,149,255,0.3);
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;
+    flex: 1 1 auto;
+    background-size: 200% auto;
+}
+
+.c-cta:hover {
+    background-position: right center;
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
