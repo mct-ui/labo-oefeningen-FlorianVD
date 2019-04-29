@@ -428,6 +428,16 @@ a:focus {
     text-shadow: 0px 0px 2px #DBEDFF, 0px 5px 10px #aeaeae;
 }
 
+@media (max-width: 576px) {
+    .c-header {
+        display: block;
+    }
+
+    .c-nav__list {
+        display: block;
+    }
+}
+
 .c-text-block {
     max-width: 32em;
 }
@@ -451,6 +461,26 @@ a:focus {
 
 .c-cta:hover {
     background-position: right center;
+}
+
+.c-figure {
+    position: relative;
+}
+
+.c-figure img {
+    width: 100%;
+}
+
+.c-figure__caption {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    color: rgba(0,0,0,0.4);
+    background-color: white;
+    padding: 24px 24px;
+    border-right: 7px solid #0053fb;
+    width: 340px;
+    font-size: 1em;
 }
 
 /*------------------------------------*\
